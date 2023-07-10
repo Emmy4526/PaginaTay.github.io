@@ -1,0 +1,262 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+
+body {
+ background-color: black;
+}
+
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 5px 10%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img{
+  height: 50px;
+  width: auto;
+}
+
+.header .logo img:hover{
+  transform: scale(1.2);
+}
+
+.header .nav-links{
+  list-style: none;
+}
+
+.header .nav-links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+  transform: scale(1.1);
+}
+
+.header .nav-links a{
+  font-size: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+  color: aqua;
+}
+
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#seccion1{
+  background-image: url("../img/taysi.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hist {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: px;
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+
+#pa2{
+  display: inline-block;
+}
+
+#Seccion2{
+  background-image: url("../img/tayy2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;}
+.bio{
+  background-color: blanchedalmond;
+  margin-top: px;
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  opacity: .6;
+  top: 15%;}
+#pabio{color: rgb(21, 21, 21);}
+.bio2{
+  background-color: rgba(144, 5, 5, 0.551);
+  margin-top: px;
+  padding: 5px;
+  width: 800px;
+  position: absolute;
+  opacity: .6;
+  top: 65%;
+  left: 45%;}
+#pabio2{color: white;}
+#Seccion3{
+  background-image: url("../img/tay3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+position: relative;}
+.disc{
+  background-color: rgb(123, 57, 108);
+  opacity: .6;
+  margin-top: px;
+  padding: 20px;
+  width: 300px;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+#hdis{
+  color: black;
+  opacity: 100;
+}
+
+.container1{
+  background-color: white;
+  width: 300px;
+  margin-top: px;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+
+}
+.img1 {
+  width: 250px; /* Ajusta el tamaño deseado */
+}
+
+.img2-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Ajusta el margen deseado */
+}
+
+.img2 {
+  width: 30px; /* Ajusta el tamaño deseado */
+  vertical-align: middle;
+}
+
+.container2{
+  background-color: white;
+  width: 300px;
+  margin-top: px;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 25%;}
+.img1 {
+  width: 250px; /* Ajusta el tamaño deseado */
+}
+
+.img2-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Ajusta el margen deseado */
+}
+
+.img2 {
+  width: 30px; /* Ajusta el tamaño deseado */
+  vertical-align: middle;
+}
+
+.container3{
+  background-color: white;
+  width: 300px;
+  margin-top: px;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 50%;}
+.img1 {
+  width: 250px; /* Ajusta el tamaño deseado */
+}
+
+.img2-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Ajusta el margen deseado */
+}
+
+.img2 {
+  width: 30px; /* Ajusta el tamaño deseado */
+  vertical-align: middle;
+}
+
+.container4{
+  background-color: white;
+  width: 300px;
+  margin-top: px;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 75%;}
+.img1 {
+  width: 250px; /* Ajusta el tamaño deseado */
+}
+
+.img2-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Ajusta el margen deseado */
+}
+
+.img2 {
+  width: 30px; /* Ajusta el tamaño deseado */
+  vertical-align: middle;
+}
+
+.spo{
+  width: 1450px;
+  margin-top: px;
+  padding: 100px;
+  position: absolute;
+  top: 47%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh; /* Ajusta la altura según tus necesidades */ }
+  
+  .container .img {
+    max-width: 100%;
+    max-height: 100%;}
+
+    footer {
+      background-color: white;
+      padding: 20px;
+      position: absolute;
+      left: 40%; 
+      width: 400px;
+    }
+    
+    .fotr {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
